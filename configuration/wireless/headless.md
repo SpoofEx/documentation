@@ -26,5 +26,7 @@ More information on the `wpa_supplicant.conf` file can be found [here](wireless-
 
 ## Remote Access
 
-With no keyboard or monitor, you will need some way of accessing the headless Raspberry Pi. There are a number of ways of doing this, and details can be found [here](../../remote-access/README.md).
+With no keyboard or monitor, you will need some way of accessing the headless Raspberry Pi. There are a number of ways of doing this, and details can be found [here](../../remote-access/README.md). Most likely you want to enable ssh [(method 3](../../remote-access/README.md)). You can do this by placing a file named ssh, without any extension, in the boot folder as well. The contents of the file do not matter. I suggest to leave it empty.
+
+You can now boot the system and access it using ssh. Connect a monitor on the HDMI-port or check your DHCP server to check the IP address.
 
